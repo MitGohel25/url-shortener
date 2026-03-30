@@ -6,14 +6,13 @@ A simple Node.js + Express backend to generate short URLs and track analytics.
 - Node.js
 - Express.js
 - MongoDB
+- JWT
+- shortid
 
 ## Features
+- User Sign Up & Sign In
+- JWT Authentication
 - Generate short URLs
-- Redirect to original URL
-- Track visit history
-- Display all URLs with analytics (click count)
-
-## UI Preview
-- Built using EJS templates
-- Displays generated short URL
-- Shows all stored URLs in table format
+- Redirect to original links
+- Track click analytics
+- View all URLs in table format
